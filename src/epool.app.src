@@ -1,0 +1,12 @@
+{application, epool,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { epool_app, []}},
+  {env, []}
+ ]}.
